@@ -7,7 +7,7 @@ This project was implemented successfully as B-Tech final year project at EE Dep
 and https://www.drdobbs.com/embedded-systems/designing-a-parallel-to-serial-port-adap/223100564
 Paper as published in Dr Dobb's is also available in ResearchGate.
 
-I am including code (listings in C and assembly) for this project as is that was used to test the adapter successfully during my B-Tech project. Testing was done for Serial to Serial mode (RS232 to RS232) using same PC and Parallel to Serial mode (SPP to RS-232) using same PC. Code for Serial to Printer parallel port can be implemented on similar lines. Code was tested using Windows 3.1 PC running DOS operating system and Borland C compiler with RS-232 and SPP ports. Assembly language used was 8051 and microcontroller was Atmel AT89C2051. Hardware and software design is included in the attached pdf file. 
+I am including code (listings in C and assembly) for this project as is that was used to test the adapter successfully during my B-Tech project. Testing was done for Serial to Serial mode (RS232 to RS232) using same PC and Parallel to Serial mode (SPP to RS-232) using same PC. Code for Serial to Printer parallel port can be implemented on similar lines. Code was tested using Windows 3.1 PC running DOS operating system and Borland C compiler. Assembly language used was 8051. Hardware and software design is included in the attached pdf file. 
 
 Serial to Serial code takes character input from keyboard, transmits it over RS-232 port of computer to external microcontroller. Microcontroller transmits the received character back to the computer's RS-232 port which the computer prints back on screen.
 
