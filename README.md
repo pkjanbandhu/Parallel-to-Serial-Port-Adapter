@@ -13,4 +13,4 @@ Serial to Serial code takes character input from keyboard, transmits it over RS-
 
 Parallel to Serial code takes character input from keyboard, transmits it over Standard Parallel Port (SPP) port of computer to external microcontroller. Microcontroller transmits the received character back to the computer's serial RS-232 port which the computer prints back on screen. 
 
-Communication happens with proper handshaking with baud rate setting at both ends.
+Communication happens with proper handshaking with baud rate synchronization at both ends.
