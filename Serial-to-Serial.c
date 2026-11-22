@@ -26,7 +26,7 @@ main()
     outportb(DLL,0x60);   /* set baud rate=1200 */
     outportb(DLH,0x00);
 
-    while((ch=getche())!='\r'){
+    while((ch=getch())!='\r'){
         outportb(LCR,0x03);
         outportb(THR,ch);
         delay(20);
